@@ -137,8 +137,8 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
 // #include <ESP8266WiFi.h>
 // #include <WebSocketsClient.h>
 
-// const char* ssid = "K_System";
-// const char* password = "Ksystem!00";
+// const char* ssid = "your_id";
+// const char* password = "your_pass";
 // const char* host = "10.0.0.203";
 // const uint16_t port = 81;
 
