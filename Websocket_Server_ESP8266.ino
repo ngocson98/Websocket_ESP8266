@@ -126,8 +126,8 @@ void onWebSocketEvent(uint8_t num, WStype_t type, uint8_t * payload, size_t leng
 
 // #include <ESP8266WiFi.h>
 // #include <WebSocketsServer.h>
-// const char* ssid = "K_System";
-// const char* password = "Ksystem!00";
+// const char* ssid = "your_id";
+// const char* password = "your_pass";
 // // ... (các khai báo khác)
 
 // WebSocketsServer webSocketServer(80); // Khởi tạo server trên cổng 81
