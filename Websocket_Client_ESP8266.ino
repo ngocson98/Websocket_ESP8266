@@ -17,9 +17,9 @@ SoftwareSerial gm65Serial(GM65_RX_PIN, GM65_TX_PIN);
 
 
 int D3 = 0;
-int count = 0;
-const char* ssid = "K_System";
-const char* password = "Ksystem!00";
+int count = 0; 
+const char* ssid = "your_id";
+const char* password = "your_pass";
 const char* host = "10.0.0.178";  // Địa chỉ IP của ESP1 (Server)
 const uint16_t port = 80;
 
