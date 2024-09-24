@@ -10,7 +10,7 @@
 #define SCREEN_ADDRESS 0x3C // dia chi I2P cua OLED
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-IPAddress local_IP(10, 0, 0, 178);  // wifi K_System
+IPAddress local_IP(10, 0, 0, 178);
 IPAddress gateway(10, 0, 0, 2);
 IPAddress subnet(255, 255, 255, 0);
 IPAddress primaryDNS(1, 1, 1, 1); //optional
@@ -18,8 +18,8 @@ IPAddress secondaryDNS(8, 8, 4, 4); //optional
 
 int D3 = 0;
 int count = 0;
-const char* ssid = "K_System";
-const char* password = "Ksystem!00";
+const char* ssid = "your_id";
+const char* password = "your_pass";
 
 
 WebSocketsServer WebSocketsServer(80);
